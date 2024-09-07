@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import dayjs, { Dayjs } from "dayjs";
-import "./singleRangePicke.css"; // Custom CSS for styling
+import "./singleRangePicke.css";
 
 const SingleRangePicke: React.FC = () => {
   const [currentMonth, setCurrentMonth] = useState<Dayjs>(dayjs());
